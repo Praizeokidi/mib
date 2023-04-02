@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/09dbb6c7e8.js" crossorigin="anonymous"></script>
+    <title>Praize Store</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <p><img class="icon" src="./imgs/envelope-solid.svg" width="15px">praizeokidi@gmail.com</p>
+        <p><img class="icon" src="./imgs/phone-solid.svg" width="15px">+234-907-580-2901</p>
+    </div>
+    <div class="header">
+        <div class="navbar">
+            <a href="#" class="logo row">
+                <img src="./imgs/logo.svg" alt="">
+                <h1>Praize Store</h1>
+            </a>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar-b">
+            <div class="dropdown">
+                <select name="">
+                    <option value="1">Categories</option>
+                    <option value="2">New</option>
+                    <option value="3">Imported</option>
+                    <option value="4">Local</option>
+                </select>
+            </div>
+            <div class="search">
+                <p><input type="search" placeholder="Search..."><img class="icon" src="./imgs/searchengin.svg"
+                        width="15px">
+                </p>
+            </div>
+            <div class="cart"><img class="icon" src="./imgs/cart-shopping-solid.svg" width="15px">
+                <p>0</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar"></div>
+    </div>
+    <script src="cart.js"></script>
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Sub total</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="imgs/bb-2.jpeg">
+                        <div class="item1">
+                            <p>IPhone 14</p>
+                            <small>Price: $1089.99</small>
+                            <br>
+                            <button>Add to Cart</button>
+                            <a href="" class="box">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$1089.99</td>
+            </tr>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="imgs/ee-1.jpg">
+                        <div class="item1">
+                            <p>Ultima Drone Z</p>
+                            <small>Price: $750.00</small>
+                            <br>
+                            <button>Add to Cart</button>
+                            <a href="" class="box">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$750.00</td>
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="imgs/dd-1.jpg">
+                        <div class="item1">
+                            <p>I-Series 8</p>
+                            <small>Price: $990.99</small>
+                            <br>
+                            <button>Add to Cart</button>
+                            <a href="" class="box">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$990.99</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="imgs/cc-1.jpg">
+                        <div class="item2">
+                            <p>Canon X31</p>
+                            <small>Price: $1809.99</small>
+                            <br>
+                            <button>Add to Cart</button>
+                            <a href="" class="box">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$1809.99</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="imgs/aa-1.jpg">
+                        <div class="item3">
+                            <p>IPS Bluetooth Headset</p>
+                            <small>Price: $450.99</small>
+                            <br>
+                            <button>Add to Cart</button>
+                            <a href="" class="box">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$450.99</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <div class="money">
+                        <td>$5091.96</td>
+                    </div>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td class="money">$145.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td class="money">$5236.96</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <div class="containerz">
+        <div class="rowz">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="wrapper">
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <span>Facebook</span>
+
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <span>Twitter</span>
+
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <span>Instagram</span>
+
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <span>Youtube</span>
+
+                    </div>
+                </div>
+                <h5>Contact Via Email:@praizeokidi@gmail.com</h5>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</html>
